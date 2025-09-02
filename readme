@@ -1,0 +1,81 @@
+📝 Task Manager (Node.js + Express + EJS)
+
+A simple Task Manager Web App built with Node.js, Express, and EJS.
+This application allows users to create tasks, store them as .txt files, and view task details on a clean, TailwindCSS-powered UI.
+
+🚀 Features
+
+📂 Create new tasks with a title and description.
+
+📝 Tasks are saved as .txt files inside the files/ directory.
+
+🔍 View task details by clicking Read More.
+
+🎨 Styled with TailwindCSS for a modern UI.
+
+⚡ Built with Express.js and EJS templates.
+
+🛠 Tech Stack
+
+Backend: Node.js, Express.js
+
+Frontend: EJS, TailwindCSS
+
+Database: File System (stores tasks as .txt files)
+
+📂 Project Structure
+├── files/                # Stores task files (.txt)
+│   ├── example.txt
+├── views/                # EJS templates
+│   ├── index.ejs         # Homepage (task listing + create form)
+│   ├── show.ejs          # Task details page
+├── public/               # Static assets (CSS, JS, images if any)
+├── index.js              # Main server file
+├── package.json          # Project dependencies
+
+⚙️ Installation & Setup
+
+Clone the repository
+
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+
+
+Install dependencies
+
+npm install
+
+
+Start the server
+
+node index.js
+
+
+Open in browser
+
+http://localhost:3000
+
+🖼 Screenshots (Optional)
+
+Homepage with task creation form & task list
+
+Task details page
+
+(You can add screenshots of your UI here by dragging them into the README once pushed to GitHub.)
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit a pull request.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+👤 Author
+
+Darshita Singh
+
+GitHub: @<your-username>
+
+LinkedIn: [Your Profile]
